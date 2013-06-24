@@ -1,0 +1,21 @@
+name = UBC CLF 7.0.2 - a Drupal Child Theme
+description = This is a sample child theme for Megatron, the responsive <a href="http://clf.ubc.ca/" title="Discover the UBC CLF" target="_blank">UBC CLF</a> (Common Look and Feel) theme, developed by UBC IT Web Services Department. The CLF is developed, managed and distributed by UBC Communications & Marketing. To find out more about the CLF, requirements and possible customizations please see <a href="http://brand.ubc.ca/clf" title="Discover the UBC CLF Brand" target="_blank">brand.ubc.ca/clf</a>.<br /><br />For more information, support or to report an issue with this theme, please contact <a href="http://web.it.ubc.ca/forms/webservices/" title="Contact UBC IT Web Services" target="_blank">UBC IT Web Services</a>.
+base theme = megatron
+version = 1.0
+core = 7.x
+
+regions[highlighted]    = 'Content: Above'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'First Sidebar'
+regions[sidebar_second] = 'Second Sidebar'
+regions[prefooter]      = 'Content: Below'
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/scripts.js
+
+version = "v.1"
+core = "7.x"
+project = "clf"
+datestamp = "1339332196"
