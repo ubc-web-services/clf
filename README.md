@@ -5,7 +5,7 @@ CLF is a *child theme* for the Drupal 8 base theme, [Galactus](https://github.co
 
 Created by the UBC IT Web Services Department.
 
-#Drupal 7 Support
+# Drupal 7 Support
 _________________
 
 If you're looking for the Drupal 7 version of this theme, it can be found in the [drupal-7 branch](https://github.com/ubc-web-services/clf/tree/drupal-7).
