@@ -9,3 +9,29 @@ Created by the UBC IT Web Services Department.
 _________________
 
 If you're looking for the Drupal 7 version of this theme, it can be found in the [drupal-7 branch](https://github.com/ubc-web-services/clf/tree/drupal-7).
+
+# SASS
+
+Optionally, CSS changes can be made with SASS through node-sass.
+
+Ensure that you have `yarn` installed.
+```
+https://yarnpkg.com/lang/en/docs/install/
+```
+
+Install the node packages with this command:
+```
+yarn install
+```
+
+You can build your CSS changes with this command:
+```
+yarn run build-css
+```
+
+OR
+
+You can watch changes to your SASS files with this command:
+```
+yarn run watch-css
+```
