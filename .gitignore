@@ -38,3 +38,9 @@ xmlrpc.php
 
 # Ignore system files
 .DS_Store
+
+# Node JS packages.
+node_modules
+
+# Development source maps.
+*.map
