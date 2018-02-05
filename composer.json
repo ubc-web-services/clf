@@ -6,5 +6,7 @@
     "name": "O'Toole, James",
     "email": "james.otoole@ubc.ca"
   }],
-  "require": {}
+  "require": {
+    "ubc-web-services/galactus": "dev-master"
+  }
 }
