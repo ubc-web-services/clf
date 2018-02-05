@@ -7,6 +7,6 @@
     "email": "james.otoole@ubc.ca"
   }],
   "require": {
-    "ubc-web-services/galactus": "dev-master"
+    "ubc-web-services/galactus": "1.0.*"
   }
 }
