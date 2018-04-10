@@ -1,0 +1,21 @@
+#Defines settings for the Breadcrumbs block
+
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - clf
+id: clf_breadcrumbs
+theme: clf
+region: breadcrumb
+weight: -2
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
