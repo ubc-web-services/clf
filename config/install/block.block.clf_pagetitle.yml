@@ -1,0 +1,19 @@
+#Defines settings for the Page Title block
+
+langcode: en
+status: true
+dependencies:
+  theme:
+    - clf
+id: clf_pagetitle
+theme: clf
+region: content
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
