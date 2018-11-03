@@ -11,3 +11,17 @@ libraries-override:
     css:
       theme:
         css/unit.custom.css: css/unit.custom.css
+
+regions:
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  help: 'Help'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  secondary_content: 'Secondary Content'
+  prefooter: 'Pre-Footer'
+  drawer: 'Off Canvas Drawer'
