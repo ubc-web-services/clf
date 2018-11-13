@@ -6,13 +6,9 @@ CLF is a *child theme* for the Drupal 8 base theme, [Galactus](https://github.co
 Created by the UBC IT Web Services Department.
 
 # Composer Builds
-If you're using composer, first add the galactus project with:
+If you're using composer, add the project with:
 ```
-composer require ubc-web-services/galactus
-```
-Then add the clf project, specifically noting that it should not be updated (otherwise your customizations may be overwritten and lost):
-```
-composer require --no-update ubc-web-services/clf
+composer require ubc-web-services/clf
 ```
 
 This will also add the base theme, [Galactus](https://github.com/ubc-web-services/galactus).
