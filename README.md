@@ -8,10 +8,11 @@ Created by the UBC IT Web Services Department.
 # Composer Builds
 If you're using composer, add the project with:
 ```
-composer require ubc-web-services/clf
+composer require ubc-web-services/clf:v1.0.3 
 ```
+We want to include the *exact* version so that running `composer update` will not overwrite your theme customizations.
 
-This will also add the base theme, [Galactus](https://github.com/ubc-web-services/galactus).
+This will also add the base theme, [Galactus](https://github.com/ubc-web-services/galactus) as a dependency. Running `composer update` will still update the base theme.
 
 # Drupal 7 Support
 _________________
