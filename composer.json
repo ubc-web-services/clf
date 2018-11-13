@@ -7,6 +7,8 @@
     "email": "james.otoole@ubc.ca"
   }],
   "require": {
-    "ubc-web-services/galactus": "1.0.*"
+  },
+  "suggest": {
+    "ubc-web-services/galactus": "Serves as the base theme for the CLF Theme."
   }
 }

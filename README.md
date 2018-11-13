@@ -15,8 +15,6 @@ Then add the clf project, specifically noting that it should not be updated (oth
 composer require --no-update ubc-web-services/clf
 ```
 
-This will also add the base theme, [Galactus](https://github.com/ubc-web-services/galactus).
-
 # Drupal 7 Support
 _________________
 
