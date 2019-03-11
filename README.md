@@ -6,7 +6,7 @@ CLF is a *child theme* for the Drupal 8 base theme, [Galactus](https://github.co
 Created by the UBC IT Web Services Department.
 
 # Composer Builds
-As this theme is meant to be modified, it should not be installed via Composer. Dpoing so weould overwrite your customizations.
+As this theme is meant to be modified, it should not be installed via Composer. Doing so weould overwrite your customizations.
 
 However, you can (and should) add the base theme, [Galactus](https://github.com/ubc-web-services/galactus), by running `composer install ubc-web-services/galactus`.
 
