@@ -2,8 +2,8 @@ name: CLF
 type: theme
 base theme: galactus
 description: 'A child theme for UBC-branded units using the CLF (<a href="http://clf.ubc.ca">Common Look and Feel</a>). This theme relies on the <a href="https://github.com/ubc-web-services/galactus">Galactus parent theme</a>. <em>We recommend using this theme for any customizations or modifications</em>.'
-package: galactus
-core: 8.x
+package: ubc-web-services
+core_version_requirement: ^8.8 || ^9
 
 # Override the unit.custom.css file from galactus if we use this theme
 libraries-override:
