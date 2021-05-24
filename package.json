@@ -2,10 +2,12 @@
   "description": "A Drupal 8 UBC CLF 7.0.4 Child theme for Galactus",
   "license": "MIT",
   "scripts": {
-    "build-css": "node-sass --output-style expanded  --source-map true --recursive --output css sass",
-    "watch-css": "node-sass -w --output-style expanded  --source-map true --recursive --output css sass"
+    "build:css": "sass sass:css",
+    "build-css": "build:css",
+    "watch:css": "sass -w sass:css",
+    "watch-css": "watch:css"
   },
-  "dependencies": {
-    "node-sass": "4.13"
+  "devDependencies": {
+    "sass": "^1.0.0"
   }
 }
